@@ -111,6 +111,45 @@ body {
   height: 100%;
 }
 
+header {
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 4em;
+    font-weight:bold;
+    background-color: #050505;
+    height: 150px;
+    width:100%;
+    display:flex;
+    justify-content:flext-start;
+     
+}
+
+main{
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 2em;
+    background-color: #050505;
+    height: 250px;
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    
+}
+
+footer{
+    background-color: #e9e0e0;
+    height: 75px;
+    border-top: 3px solid #d40d0d;
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.linkedn{
+    margin-right:15px;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -121,7 +160,7 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color:#e9e0e0;
   line-height: 1.5em;
   font-size: 1.38em;
   background-color: #050505;
